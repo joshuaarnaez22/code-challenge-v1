@@ -6,7 +6,7 @@ export async function BooksTabs() {
       title: "First",
       value: "first",
       content: (
-        <div className="w-full  relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold  bg-gray-100 overflow-y-scroll">
+        <div className="w-full  relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold  bg-gray-100 overflow-y-auto">
           <p>First Tab</p>
           <TablePage />
         </div>
