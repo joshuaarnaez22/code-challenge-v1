@@ -2,14 +2,12 @@ import { create } from "zustand";
 import { mountStoreDevtool } from "simple-zustand-devtools";
 
 export interface BooksState {
-  id: string;
-  update: (id: string) => void;
-  delete: (id: string) => void;
+  id: number | null;
+  delete: (id: number) => void;
 }
 
 export const booksStore = create<BooksState>((set) => ({
-  id: "",
-  update: (state) => set(() => ({ id: state })),
+  id: null,
   delete: (state) => set(() => ({ id: state }))
 }));
 

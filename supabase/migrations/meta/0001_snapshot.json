@@ -1,6 +1,6 @@
 {
-  "id": "e74f5885-1f53-4860-b5b6-0bbd179b81cd",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "9dfb7920-9c66-4e7e-81c2-5c96b6f7e749",
+  "prevId": "e74f5885-1f53-4860-b5b6-0bbd179b81cd",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -18,25 +18,25 @@
           "name": "title",
           "type": "text",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "author": {
           "name": "author",
           "type": "text",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "publishedDate": {
           "name": "publishedDate",
           "type": "timestamp",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         },
         "genre": {
           "name": "genre",
           "type": "text",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
         }
       },
       "indexes": {},
